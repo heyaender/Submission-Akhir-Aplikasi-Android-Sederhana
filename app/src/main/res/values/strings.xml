@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Komponen Komputer</string>
+
+    <string name="pcparts_name">Komponen Komputer</string>
+    <string name="description">Deskripsi</string>
+    <string name="more" />
+    <string name="content_description_more" />
+    <string-array name="data_name">
+        <item>CPU (Central Processing Unit)</item>
+        <item>RAM (Random Access Memory)</item>
+        <item>GPU (Graphics Processing Unit)</item>
+        <item>HDD (Hard-Disk Drive)</item>
+        <item>Motherboard</item>
+        <item>SSD (Solid-State Drive)</item>
+        <item>CPU Fan</item>
+        <item>Case</item>
+        <item>SATA Cable</item>
+        <item>PSU (Power Supply)</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>"The CPU (Central Processing Unit) is the "brain" of a computer system. It is a small electronic chip that controls all the operations and calculations performed by the computer. The CPU executes instructions that are stored in the computer's memory, fetches data from storage devices, performs arithmetic and logical operations, and communicates with other hardware components. It is responsible for the speed and overall performance of a computer system. CPUs are measured by their clock speed, which is the number of instructions they can execute in a second. Modern CPUs are multi-core, meaning they have multiple processing units that can work simultaneously, which greatly increases their computing power".</item>
+        <item>"RAM (Random Access Memory) is a type of computer memory that temporarily stores data and instructions that the CPU (Central Processing Unit) needs to access quickly. RAM is volatile, which means that its contents are lost when the computer is turned off. RAM is essential for running programs and applications on a computer. When a program is launched, it is loaded into RAM so that the CPU can access the instructions and data quickly. The more RAM a computer has, the more programs it can run simultaneously without slowing down. RAM is measured in units of bytes, and the most common types of RAM used today are DDR4 and DDR5. RAM modules are installed on the motherboard of a computer and can be upgraded or replaced to increase the amount of available memory."</item>
+        <item>"A GPU (Graphics Processing Unit) is a specialized processor designed to handle complex graphical computations required for rendering images, videos, and animations. It works in parallel with the CPU (Central Processing Unit) to perform these calculations efficiently and quickly, taking the load off the CPU. A GPU has hundreds or thousands of small processing cores that can work together simultaneously, making it capable of performing parallel computations at a much faster rate than a CPU. It has its own memory (VRAM) and is optimized for handling large amounts of data required for graphics processing. In addition to graphics-related tasks, modern GPUs are increasingly used for general-purpose computing tasks such as machine learning, scientific simulations, and cryptocurrency mining. This is due to their high processing power and ability to perform complex calculations in parallel."</item>
+        <item>"A computer HDD (hard disk drive) is a non-volatile storage device that stores and retrieves digital information using rapidly rotating disks coated with magnetic materials. The disks are divided into concentric tracks, and each track is further divided into sectors that store data. HDDs are typically housed within a computer or laptop and use read/write heads to access and modify data on the disks. They offer large storage capacity, ranging from a few hundred gigabytes to several terabytes, and are relatively inexpensive compared to other storage options. While HDDs have been a popular storage option for many years, they are gradually being replaced by solid-state drives (SSDs), which are faster, more durable, and consume less power. However, HDDs remain a widely used and affordable storage solution for many computer users."</item>
+        <item>"A motherboard, also known as a mainboard, is the central printed circuit board (PCB) in a computer system that connects and communicates with all the other components such as CPU, RAM, storage, graphics card, and peripherals. It provides the electrical and mechanical connections between these components and facilitates their communication. A typical motherboard contains various ports, slots, and connectors for expansion cards, memory modules, storage devices, input/output devices, and power supply. It also includes a BIOS (basic input/output system) chip that initializes the system and controls the boot process. The form factor of a motherboard determines its size and shape, and compatibility with the computer case and power supply. The most common form factors are ATX, Micro-ATX, and Mini-ITX. In summary, the motherboard serves as the backbone of the computer system, providing the foundation for all the hardware components to work together effectively."</item>
+        <item>"A Solid State Drive (SSD) is a data storage device that uses NAND-based flash memory to store data. It is a type of non-volatile storage device, meaning that it retains data even when the power is turned off. Unlike traditional Hard Disk Drives (HDDs), SSDs have no moving parts, resulting in faster read/write speeds, improved durability, and decreased power consumption. SSDs typically come in 2.5-inch or M.2 form factors and can be used in a variety of devices, including laptops, desktops, and servers. They have become increasingly popular due to their fast boot-up times, reduced latency, and improved overall system performance."</item>
+        <item>"A computer CPU fan is a device that is responsible for cooling the central processing unit (CPU) of a computer. It is a small fan that is mounted on top of the CPU, and it works by pulling hot air away from the processor and blowing it out of the computer case. The CPU fan is essential because the processor generates a significant amount of heat when it is in use, and if the heat is not dissipated, it can damage the processor and other components of the computer. The fan helps to maintain a stable temperature and prevent overheating. Most modern CPUs have built-in thermal sensors that monitor the temperature and adjust the fan speed accordingly. This ensures that the fan operates at an optimal speed, providing efficient cooling while minimizing noise. A malfunctioning or improperly installed CPU fan can cause a computer to overheat and lead to hardware failure."</item>
+        <item>"A computer case, also known as a computer chassis or tower, is the physical enclosure that houses all the internal components of a computer. Its main purpose is to protect the internal parts from dust, moisture, and other potential hazards, while also providing support and cooling for these components. A typical computer case consists of a metal or plastic frame that contains a power supply unit, a motherboard, one or more storage drives, and other hardware components. It also includes various ports and connectors on the front and back for connecting peripherals, such as a monitor, keyboard, and mouse. The design and features of a computer case can vary widely, from simple and compact designs to larger, more complex models with multiple fans and advanced cooling systems."</item>
+        <item>"A computer hard drive SATA cable is a type of data transfer cable that connects a computer's motherboard to its hard drive. SATA stands for Serial Advanced Technology Attachment and is a popular standard for connecting storage devices to a computer. The SATA cable has a thin, flat, and flexible design that allows for easy installation and better airflow within the computer case. It has a 7-pin connector on each end, which plugs into the SATA port on the motherboard and the hard drive. The cable transfers data between the motherboard and hard drive, allowing the computer to read and write data to the hard drive. It also provides power to the hard drive, eliminating the need for a separate power cable. SATA cables come in various lengths and colors, and they are compatible with different types of SATA hard drives, including solid-state drives (SSDs) and traditional hard disk drives (HDDs)."</item>
+        <item>"A computer power supply is a device that converts the alternating current (AC) from the wall outlet to direct current (DC) that is used by the computer's internal components. It provides power to the motherboard, CPU, graphics card, hard drives, and other components that require electricity to function. The power supply unit (PSU) typically has a box-like shape with a fan and connects to the computer's motherboard through a cable. The wattage of a power supply unit is an important factor to consider when building or upgrading a computer as it determines the maximum power the system can draw."</item>
+    </string-array>
+    <integer-array name="data_photo">
+        <item>@drawable/cpu</item>
+        <item>@drawable/ram</item>
+        <item>@drawable/gpu</item>
+        <item>@drawable/hdd</item>
+        <item>@drawable/mainboard</item>
+        <item>@drawable/solidstatedrive</item>
+        <item>@drawable/cpu_fan</item>
+        <item>@drawable/pccase</item>
+        <item>@drawable/sata_cable</item>
+        <item>@drawable/psu</item>
+    </integer-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_transform">Transform</string>
+    <string name="menu_reflow">Reflow</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="lorem_ipsum_title">Lorem Ipsum"</string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply placeholder text of the printing and
+        typesetting industry. Lorem Ipsum has been the industry\'s standard placeholder text ever
+        since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+        type specimen book"
+    </string>
+    <string name="fab_content_description">Represents a view to invoke an action</string>
+    <string name="image_view_item_transform_content_description">Represents an image view in the
+        item
+    </string>
+</resources>
